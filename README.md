@@ -300,3 +300,71 @@ Sample output:
 ```
 Minimum: 3, Maximum: 77
 ```
+
+## Q: Find the Length of a String Using Pointers
+
+Write a program to find the length of a string using pointers. The program should define a function `strLength` that takes a character pointer as an argument and returns the length of the string.
+
+The function prototype will be `int strLength(char *str)`.
+
+The program first receives a string from the user. The function `strLength` is then called from `main()`, and the length of the string is printed as the final output.
+
+**Case 1**
+
+Sample input:
+```
+hello
+```
+
+Sample output:
+```
+5
+```
+
+**Case 2**
+
+Sample input:
+```
+C programming
+```
+
+Sample output:
+```
+13
+```
+
+## Q: Sort an Array Using Pointers
+
+Write a program to sort an array of integers in ascending order using pointers. The program should define a function `sortArray` that takes an integer pointer and the size of the array.
+
+The function prototype will be `void sortArray(int *arr, int size)`.
+
+The program first receives the size of the array, followed by its elements. The function `sortArray` is then called from `main()`, and the sorted array is printed as the final output.
+
+**Case 1**
+
+Sample input:
+```
+5
+3 1 4 5 2
+```
+
+Sample output:
+```
+1 2 3 4 5
+```
+
+**Case 2**
+
+Sample input:
+```
+3
+12 11 13
+```
+
+Sample output:
+```
+11 12 13
+```
+
+
